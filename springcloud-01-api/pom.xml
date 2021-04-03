@@ -13,6 +13,14 @@
 
     <!--当前moudle需要的以来 如父类定义了版本则无需声明版本-->
     <dependencies>
+
+        <!--Feign的依赖-->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-feign</artifactId>
+            <version>1.4.6.RELEASE</version>
+        </dependency>
+
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>

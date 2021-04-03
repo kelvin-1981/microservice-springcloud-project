@@ -17,6 +17,8 @@
         <module>springcloud-06-eureka-7003</module>
         <module>springcloud-02-provider-dept-8002</module>
         <module>springcloud-02-provider-dept-8003</module>
+        <module>springcloud-07-dept-feign</module>
+        <module>springcloud-07-consumer-dept-feign</module>
     </modules>
 
     <!--打包方式  pom-->
