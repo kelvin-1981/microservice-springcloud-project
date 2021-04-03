@@ -14,8 +14,10 @@ import java.util.List;
 @Controller
 public class DeptConsumerController {
 
-    //数据提供者的前缀常量
-    private static final String REST_URL_PREFIX = "http://localhost:8001";
+    /**
+     * 我们这里的地址，应该是一个变量，通过服务名来访问
+     */
+    private static final String REST_URL_PREFIX = "http://SPRINGCLOUD-PROVIDER-DEPT";
 
     /**
      * RestTemplate 有很多方法给我们直接调用!它的类中没有Bean所以要我们自己把它注册到Bean中
