@@ -19,6 +19,8 @@
         <module>springcloud-02-provider-dept-8003</module>
         <module>springcloud-07-dept-feign</module>
         <module>springcloud-07-consumer-dept-feign</module>
+        <module>springcloud-08-provider-dept-hystrix-8001</module>
+        <module>springcloud-09-consumer-hystrix-dashboard</module>
     </modules>
 
     <!--打包方式  pom-->

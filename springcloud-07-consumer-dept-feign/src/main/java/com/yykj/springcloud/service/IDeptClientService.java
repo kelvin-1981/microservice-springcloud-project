@@ -11,7 +11,7 @@ import java.util.List;
 /**
  * @FeignClient:微服务客户端注解,value:指定微服务的名字,这样就可以使Feign客户端直接找到对应的微服务
  */
-@FeignClient(value = "springcloud-provider-dept")
+@FeignClient(value = "springcloud-provider-dept", fallbackFactory = DeptClientServiceFallBackFactory.class)
 public interface IDeptClientService {
 
     @GetMapping("/dept/get/{id}")

@@ -2,6 +2,7 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
@@ -12,9 +13,11 @@
         <module name="springcloud-04-eureka-7001" />
         <module name="springcloud-02-provider-dept-8003" />
         <module name="springcloud-02-provider-dept-8002" />
+        <module name="springcloud-09-consumer-hystrix-dashboard" />
         <module name="springcloud-02-provider-dept-8001" />
         <module name="springcloud-07-dept-feign" />
         <module name="springcloud-01-api" />
+        <module name="springcloud-08-provider-dept-hystrix-8001" />
         <module name="springcloud-05-eureka-7002" />
       </profile>
     </annotationProcessing>
