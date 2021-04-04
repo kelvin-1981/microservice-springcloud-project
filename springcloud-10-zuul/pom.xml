@@ -9,9 +9,15 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>springcloud-09-consumer-hystrix-dashboard</artifactId>
+    <artifactId>springcloud-10-zuul</artifactId>
 
     <dependencies>
+        <!--导入zuul依赖-->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-zuul</artifactId>
+            <version>1.4.6.RELEASE</version>
+        </dependency>
         <!--Hystrix依赖-->
         <dependency>
             <groupId>org.springframework.cloud</groupId>

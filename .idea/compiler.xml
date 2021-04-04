@@ -9,8 +9,6 @@
         <outputRelativeToContentRoot value="true" />
         <module name="springcloud-03-consumer-dept-80" />
         <module name="springcloud-07-consumer-dept-feign" />
-        <module name="springcloud-06-eureka-7003" />
-        <module name="springcloud-04-eureka-7001" />
         <module name="springcloud-02-provider-dept-8003" />
         <module name="springcloud-02-provider-dept-8002" />
         <module name="springcloud-09-consumer-hystrix-dashboard" />
@@ -18,6 +16,9 @@
         <module name="springcloud-07-dept-feign" />
         <module name="springcloud-01-api" />
         <module name="springcloud-08-provider-dept-hystrix-8001" />
+        <module name="springcloud-10-zuul" />
+        <module name="springcloud-06-eureka-7003" />
+        <module name="springcloud-04-eureka-7001" />
         <module name="springcloud-05-eureka-7002" />
       </profile>
     </annotationProcessing>
