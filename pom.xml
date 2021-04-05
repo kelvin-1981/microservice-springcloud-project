@@ -22,6 +22,10 @@
         <module>springcloud-08-provider-dept-hystrix-8001</module>
         <module>springcloud-09-consumer-hystrix-dashboard</module>
         <module>springcloud-10-zuul</module>
+        <module>springcloud-11-config-server-3344</module>
+        <module>springcloud-12-config-client-3355</module>
+        <module>springcloud-13-config-eureka-7001</module>
+        <module>springcloud-14-config-dept-8001</module>
     </modules>
 
     <!--打包方式  pom-->
